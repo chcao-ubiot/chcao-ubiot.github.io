@@ -1,217 +1,300 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Chenhong Cao | USTC</title>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Chenhong Cao | USTC</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Personal Homepage of Chenhong Cao, Associate Professor at USTC">
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+            /* Custom Academic Styles */
+            .publication-item { margin-bottom: 1.5em; }
+            .publication-title { font-weight: 700; color: #333; display: block; }
+            .publication-authors { font-style: italic; color: #555; }
+            .publication-venue { color: #d52349; font-weight: 600; } 
+            
+            /* Tags for Paper Ranking/Awards */
+            .tag {
+                display: inline-block;
+                padding: 2px 6px;
+                margin-left: 5px;
+                border-radius: 4px;
+                font-size: 0.8em;
+                font-weight: bold;
+                color: #fff;
+                vertical-align: middle;
+            }
+            .tag-a { background-color: #c0392b; } /* Top Tier / CCF A */
+            .tag-b { background-color: #2980b9; } /* CCF B */
+            .tag-award { background-color: #f1c40f; color: #333; } /* Award */
+            .tag-q1 { background-color: #27ae60; } /* JCR Q1 */
+            
+            /* Job List Styles */
+            ul.job-list li { margin-bottom: 1em; list-style: none; border-left: 3px solid #ddd; padding-left: 15px; }
+            ul.job-list h4 { margin-bottom: 0.2em; }
+            
+            /* External Profile Links */
+            .profile-links a {
+                font-size: 0.6em;
+                font-weight: normal;
+                margin-left: 10px;
+                border-bottom: none;
+                color: #555;
+                text-decoration: none;
+            }
+            .profile-links a:hover { color: #d52349; text-decoration: underline; }
+        </style>
+	</head>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Personal Homepage of Chenhong Cao, Associate Professor at USTC">
+	<body>
+		<div id="wrapper_all">
 
-    <link rel="stylesheet" href="assets/css/main.css">
+			<div id="header">
+				<header>
+                    <span class="image avatar"><img src="images/profile.jpg" alt="Chenhong Cao" /></span>
+					<h1 id="logo"><a href="#">Chenhong Cao</a></h1>
+					<p>Ph.D., Associate Professor<br />
+					School of Computer Science and Technology<br />
+					University of Science and Technology of China</p>
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="#about" class="active">About</a></li>
+						<li><a href="#news">News</a></li>
+						<li><a href="#publications">Publications</a></li>
+						<li><a href="#experience">Experience</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#awards">Awards</a></li>
+						<li><a href="#teaching">Teaching & Service</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+                <footer>
+                    <ul class="icons">
+                        <li><a href="mailto:chcao@ustc.edu.cn" class="icon fa-envelope"><span class="label">Email</span></a></li>
+                    </ul>
+                </footer>
+			</div>
 
-    <style>
-        .publication-item { margin-bottom: 1.5em; }
-        .publication-title { font-weight:700; color:#333; display:block; }
-        .publication-authors { font-style:italic; color:#555; display:block;}
-        .publication-venue { color:#d52349; font-weight:600; display:block;}
+			<div id="wrapper">
 
-        .tag {
-            display:inline-block;
-            padding:2px 6px;
-            margin-left:6px;
-            border-radius:4px;
-            font-size:.78em;
-            font-weight:bold;
-            color:#fff;
-        }
-        .tag-a { background:#c0392b; }
-        .tag-b { background:#2980b9; }
-        .tag-award { background:#f1c40f; color:#333; }
+				<section id="about">
+					<div class="container">
+						<header class="major">
+							<h2>Chenhong Cao</h2>
+							<p>Associate Professor, USTC</p>
+						</header>
 
-        ul.job-list { padding-left:0; }
-        ul.job-list li {
-            margin-bottom:1em;
-            list-style:none;
-            border-left:3px solid #ddd;
-            padding-left:15px;
-        }
-        ul.job-list h4 { margin-bottom:0.2em; }
-    </style>
-</head>
+						<p>
+                            I am currently an Associate Professor with the School of Computer Science and Technology, <a href="https://www.ustc.edu.cn/" target="_blank">University of Science and Technology of China (USTC)</a>. 
+                            I am affiliated with the <b>Ubiquitous Battery-free IoT Laboratory</b> led by <a href="https://ubiot.ustc.edu.cn/weigong/main.htm" target="_blank"><u>Prof. Wei Gong</u></a>. 
+                        </p>
+                        <p>
+                            I received my Ph.D. in Computer Science from <a href="https://www.zju.edu.cn/english/" target="_blank">Zhejiang University</a> in 2018, under the supervision of <a href="https://dongw.emnets.org/" target="_blank"><u>Prof. Wei Dong</u></a> and Academician <a href="https://person.zju.edu.cn/chenc" target="_blank"><u>Chun Chen</u></a>. 
+                            Before joining USTC, I conducted postdoctoral research at Zhejiang University and served on the faculty of Shanghai University.
+                        </p>
+                        <p>
+                            <b>Research Interests:</b> My research focuses on <b>Edge Computing</b>, <b>IoT Systems and Networking</b>, and <b>Wireless and Mobile Computing</b>. 
+                            I have a particular emphasis on <i>backscatter communication</i> and <i>passive IoT systems</i>. My work centers on system architecture, protocol/physical-layer co-design, and performance optimization for scalable, battery-free intelligent sensing and connectivity.
+                        </p>
+					</div>
+				</section>
 
-<body>
+				<section id="news">
+					<div class="container">
+						<h3>Recent News</h3>
+						<ul class="icons-ul">
+                            <li><i class="icon-li icon-bullhorn"></i> <b>[2025.01]</b> One paper titled "Real-time Cross-Domain Gesture and User Identification via COTS WiFi" was accepted by <b>IEEE TMC</b> (CCF-A).</li>
+                            <li><i class="icon-li icon-bullhorn"></i> <b>[2024.12]</b> I was selected for the <b>Mozi Distinguished Young Scholar Special Fellowship</b>.</li>
+                            <li><i class="icon-li icon-bullhorn"></i> <b>[2024.12]</b> Received the <b>IEEE Outstanding Paper Award</b> at IEEE HPCC 2024.</li>
+                            <li><i class="icon-li icon-bullhorn"></i> <b>[2024.10]</b> I was selected for the <b>Xiaomi Young Talents Program</b>.</li>
+                            <li><i class="icon-li icon-bullhorn"></i> <b>[2024.02]</b> Joined USTC as a Research Associate/Associate Professor.</li>
+						</ul>
+					</div>
+				</section>
 
-<div id="wrapper_all">
+				<section id="publications">
+					<div class="container">
+						<h3>
+                            Selected Publications
+                            <span class="profile-links">
+                                <a href="https://dblp.org/search?q=Chenhong+Cao" target="_blank">[DBLP]</a>
+                                <a href="https://scholar.google.com/scholar?q=Chenhong+Cao" target="_blank">[Google Scholar]</a>
+                            </span>
+                        </h3>
+                        <p><i>* Corresponding Author</i></p>
+                        
+                        <div class="publication-item">
+                            <span class="publication-title">Real-time Cross-Domain Gesture and User Identification via COTS WiFi <span class="tag tag-a">CCF A</span></span>
+                            <span class="publication-authors"><b>Chenhong Cao</b>, Yue Ding, Miaoling Dai, Wei Gong, Xibin Zhao</span>
+                            <span class="publication-venue">IEEE Transactions on Mobile Computing (TMC), 2025.</span>
+                        </div>
 
-    <!-- Sidebar -->
-    <aside id="header">
-        <header>
-            <span class="image avatar">
-                <img src="images/chenhongcao.png" alt="Chenhong Cao">
-            </span>
+                        <div class="publication-item">
+                            <span class="publication-title">Towards Seamless Single Receiver Backscatter with Uncontrolled Ambient OFDM WiFi <span class="tag tag-award">Outstanding Paper Award</span></span>
+                            <span class="publication-authors"><b>Chenhong Cao</b>, Wei Xi, Shuai Wang, and Wei Gong</span>
+                            <span class="publication-venue">IEEE High Performance Computing and Communications (HPCC), 2024.</span>
+                        </div>
 
-            <h1 id="logo"><a href="#">Chenhong Cao</a></h1>
+                        <div class="publication-item">
+                            <span class="publication-title">Neural Adaptive IoT Streaming Analytics with RL-Adapt <span class="tag tag-b">CCF B</span></span>
+                            <span class="publication-authors"><b>Chenhong Cao</b>, Miaoling Dai, Bonan Shen, Guobing Zou, Wei Dong</span>
+                            <span class="publication-venue">Computer Networks, 2023.</span>
+                        </div>
 
-            <p>
-                Ph.D., Associate Professor<br>
-                School of Computer Science and Technology<br>
-                University of Science and Technology of China
-            </p>
-        </header>
+                        <div class="publication-item">
+                            <span class="publication-title">WiEdge: Edge Computing for Audio Sensing Applications with Accurate Wireless Link Prediction <span class="tag tag-q1">JCR Q1</span></span>
+                            <span class="publication-authors"><b>Chenhong Cao</b>, Wei Dong, Wenzhao Zhang and Yi Gao</span>
+                            <span class="publication-venue">IEEE Internet of Things Journal (IoTJ), 2023.</span>
+                        </div>
 
-        <nav id="nav">
-            <ul>
-                <li><a href="#about" class="active">About</a></li>
-                <li><a href="#news">News</a></li>
-                <li><a href="#publications">Publications</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#awards">Awards</a></li>
-                <li><a href="#teaching">Teaching & Service</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+                        <div class="publication-item">
+                            <span class="publication-title">AdSherlock: Efficient and Deployable Click Fraud Detection for Mobile Applications <span class="tag tag-a">CCF A</span></span>
+                            <span class="publication-authors"><b>Chenhong Cao</b>, Yi Gao, Yang Luo, Mingyuan Xia, Wei Dong, Chun Chen, Xue Liu</span>
+                            <span class="publication-venue">IEEE Transactions on Mobile Computing (TMC), 2021.</span>
+                        </div>
 
-        <footer>
-            <ul class="icons">
-                <li>
-                    <a href="mailto:chcao@ustc.edu.cn" aria-label="Email">
-                        Email
-                    </a>
-                </li>
-            </ul>
-        </footer>
-    </aside>
+                        <div class="publication-item">
+                            <span class="publication-title">Universal Path Tracing for Large-Scale Sensor Networks <span class="tag tag-a">CCF A</span></span>
+                            <span class="publication-authors">Yi Gao, Wei Dong, <b>Chenhong Cao</b>, Xiaoyu Zhang</span>
+                            <span class="publication-venue">IEEE/ACM Transactions on Networking (ToN), 2020.</span>
+                        </div>
 
+                        <div class="publication-item">
+                            <span class="publication-title">Understanding Path Reconstruction Algorithms in Multihop Wireless Networks <span class="tag tag-a">CCF A</span></span>
+                            <span class="publication-authors">Wei Dong, <b>Chenhong Cao</b>, Xiaoyu Zhang, and Yi Gao</span>
+                            <span class="publication-venue">IEEE/ACM Transactions on Networking (ToN), 2019.</span>
+                        </div>
 
-    <!-- Main Content -->
-    <main id="wrapper">
+                        <div class="publication-item">
+                            <span class="publication-title">Network Measurement in Multihop Wireless Networks with Lossy and Correlated Links <span class="tag tag-a">CCF A</span></span>
+                            <span class="publication-authors"><b>Chenhong Cao</b>, Wei Gong, Wei Dong, Jihong Yu, Chun Chen, and Jiangchuan Liu</span>
+                            <span class="publication-venue">IEEE INFOCOM 2018. (Acceptance Rate: 19.2%)</span>
+                        </div>
 
-        <!-- About -->
-        <section id="about">
-            <div class="container">
-                <header class="major">
-                    <h2>Chenhong Cao</h2>
-                    <p>Associate Professor, USTC</p>
-                </header>
+                        <div class="publication-item">
+                            <span class="publication-title">Accurate Per-Link Loss Tomography in Dynamic Sensor Networks <span class="tag tag-b">CCF B</span></span>
+                            <span class="publication-authors"><b>Chenhong Cao</b>, Yi Gao, Wei Dong, and Jiajun Bu</span>
+                            <span class="publication-venue">Computer Networks, 2018.</span>
+                        </div>
 
-                <p>
-                    I am currently an Associate Professor with the School of Computer Science and Technology,
-                    <a href="https://www.ustc.edu.cn/" target="_blank" rel="noopener">
-                        University of Science and Technology of China (USTC)
-                    </a>.
-                    I am affiliated with the <b>Ubiquitous Battery-free IoT Laboratory</b>
-                    led by
-                    <a href="https://ubiot.ustc.edu.cn/weigong/main.htm"
-                       target="_blank" rel="noopener">
-                        <u>Prof. Wei Gong</u>
-                    </a>.
-                </p>
+                        <div class="publication-item">
+                            <span class="publication-title">TinySDM: Software Defined Measurement in Wireless Sensor Networks <span class="tag tag-b">CCF B</span></span>
+                            <span class="publication-authors"><b>Chenhong Cao</b>, Luyao Luo, Yi Gao, Wei Dong*, Chun Chen</span>
+                            <span class="publication-venue">ACM/IEEE IPSN 2016. (Acceptance Rate: 19.6%)</span>
+                        </div>
+					</div>
+				</section>
+                
+                <section id="experience">
+                    <div class="container">
+                        <h3>Professional Experience</h3>
+                        <ul class="job-list">
+                            <li>
+                                <h4>Research Associate / Associate Professor</h4>
+                                <p><i>University of Science and Technology of China (USTC)</i> | Feb. 2024 - Present</p>
+                            </li>
+                            <li>
+                                <h4>Associate Professor</h4>
+                                <p><i>Shanghai University</i> | Mar. 2023 - Feb. 2024</p>
+                            </li>
+                            <li>
+                                <h4>Lecturer</h4>
+                                <p><i>Shanghai University</i> | Apr. 2019 - Mar. 2023</p>
+                            </li>
+                            <li>
+                                <h4>Postdoctoral Researcher</h4>
+                                <p><i>Zhejiang University / Alibaba-ZJU Joint Research Institute</i> | July 2018 - Apr. 2019</p>
+                            </li>
+                             <li>
+                                <h4>Visiting Scholar</h4>
+                                <p><i>Simon Fraser University, Canada</i> | Oct. 2016 - June 2017</p>
+                            </li>
+                        </ul>
 
-                <p>
-                    I received my Ph.D. from
-                    <a href="https://www.zju.edu.cn/english/"
-                       target="_blank" rel="noopener">Zhejiang University</a>,
-                    supervised by
-                    <a href="https://dongw.emnets.org/"
-                       target="_blank" rel="noopener"><u>Prof. Wei Dong</u></a>
-                    and Academician
-                    <a href="https://person.zju.edu.cn/chenc"
-                       target="_blank" rel="noopener"><u>Chun Chen</u></a>.
-                </p>
+                        <h3>Education</h3>
+                        <ul class="job-list">
+                            <li>
+                                <h4>Ph.D. in Computer Science and Technology</h4>
+                                <p><i>Zhejiang University</i> | 2014 - 2018</p>
+                            </li>
+                            <li>
+                                <h4>M.Sc. / B.Sc. in Computer Science</h4>
+                                <p><i>Northeastern University</i> | 2007 - 2013</p>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
 
-                <p>
-                    <b>Research Interests:</b>
-                    Edge Computing, IoT Systems, Wireless & Mobile Computing,
-                    with emphasis on backscatter communication and passive IoT systems.
-                </p>
-            </div>
-        </section>
+                <section id="projects">
+					<div class="container">
+						<h3>Projects and Funding</h3>
+						<ul class="icons-ul">
+							<li><i class="icon-li icon-ok"></i><b>[PI]</b> National Natural Science Foundation of China (NSFC, No. 62472391), 2025-2028.</li>
+                            <li><i class="icon-li icon-ok"></i><b>[PI]</b> Hefei Natural Science Foundation (No. HZR2406), 2024.12-2026.11.</li>
+                            <li><i class="icon-li icon-ok"></i><b>[PI]</b> USTC Youth Innovation Fund, 2024.</li>
+                            <li><i class="icon-li icon-ok"></i><b>[PI]</b> National Natural Science Foundation of China (NSFC, No. 62002213), Completed.</li>
+                            <li><i class="icon-li icon-ok"></i><b>[PI]</b> Shanghai Sailing Program (No. 20YF1413700), Completed.</li>
+                            <li><i class="icon-li icon-ok"></i><b>[PI]</b> Anhui Provincial Key Laboratory Open Project (No. AHNIS2023001).</li>
+						</ul>
+					</div>
+				</section>
 
-        <!-- News -->
-        <section id="news">
-            <div class="container">
-                <h3>Recent News</h3>
-                <ul>
-                    <li><b>[2025.01]</b> Paper accepted by IEEE TMC (CCF-A)</li>
-                    <li><b>[2024.12]</b> Mozi Distinguished Young Scholar</li>
-                    <li><b>[2024.12]</b> IEEE Outstanding Paper Award (HPCC)</li>
-                    <li><b>[2024.10]</b> Xiaomi Young Talents Program</li>
-                    <li><b>[2024.02]</b> Joined USTC</li>
-                </ul>
-            </div>
-        </section>
+				<section id="awards">
+					<div class="container">
+						<h3>Honors & Awards</h3>
+						<ul class="icons-ul">
+                            <li><i class="icon-li icon-trophy"></i> <b>Mozi Distinguished Young Scholar Special Fellowship</b>, USTC, 2024</li>
+                            <li><i class="icon-li icon-trophy"></i> <b>Xiaomi Young Talents Program</b>, 2024</li>
+                            <li><i class="icon-li icon-trophy"></i> <b>IEEE Outstanding Paper Award</b>, IEEE HPCC, 2024</li>
+                            <li><i class="icon-li icon-trophy"></i> Shanghai University Young Talents Sailing Program, 2022</li>
+							<li><i class="icon-li icon-trophy"></i> Shanghai Science and Technology Young Talents Sailing Program, 2020</li>
+						</ul>
+					</div>
+				</section>
 
-        <!-- Publications -->
-        <section id="publications">
-            <div class="container">
-                <h3>Selected Publications</h3>
-                <p><i>* Corresponding Author</i></p>
+				<section id="teaching">
+					<div class="container">
+                        <h3>Teaching</h3>
+                        <ul>
+                            <li><b>Spring Semester:</b> Fundamentals of Java Software Development (Undergraduate)</li>
+                            <li><b>Spring Semester:</b> Parallel and Distributed Computing (COMP6107P)</li>
+                        </ul>
 
-                <div class="publication-item">
-                    <span class="publication-title">
-                        Real-time Cross-Domain Gesture and User Identification via COTS WiFi
-                        <span class="tag tag-a">CCF A</span>
-                    </span>
-                    <span class="publication-authors">
-                        <b>Chenhong Cao</b>, Yue Ding, Miaoling Dai, Wei Gong
-                    </span>
-                    <span class="publication-venue">
-                        IEEE Transactions on Mobile Computing, 2025
-                    </span>
-                </div>
+						<h3>Academic Services</h3>
+                        <h5>Conference Organization</h5>
+						<ul class="icons-ul">
+							<li><i class="icon-li icon-user"></i> <b>Publication Chair:</b> IEEE ICPADS 2025</li>
+                            <li><i class="icon-li icon-user"></i> <b>Special Session Co-chair:</b> IEEE WFIoT 2025</li>
+                            <li><i class="icon-li icon-user"></i> <b>TPC Member:</b> IEEE HPCC 2024, IEEE UIC 2023, IEEE BigData 2021-2023</li>
+						</ul>
+                        <h5>Journal & Conference Reviewer</h5>
+                        <p>IEEE Transactions on Mobile Computing (TMC), IEEE Transactions on Intelligent Transportation Systems (TITS), IEEE Internet of Things Journal (IoTJ), ISWC/Ubicomp, etc.</p>
+					</div>
+				</section>
 
-                <!-- 其余publication结构完全一致，可继续添加 -->
+				<section id="contact">
+					<div class="container">
+						<h3>Contact Information</h3>
+                        <p>I am always looking for self-motivated students to join our lab. If you are interested in IoT and Edge Computing, please feel free to email me.</p>
+						<ul class="feature-icons">
+							<li class="fa-envelope"><a href="mailto:chcao@ustc.edu.cn">chcao@ustc.edu.cn</a></li>
+							<li class="fa-building">School of Computer Science and Technology</li>
+                            <li class="fa-map-marker">University of Science and Technology of China, Hefei, Anhui</li>
+						</ul>
+					</div>
+				</section>
+				
+			</div>
+		
+		</div>
 
-            </div>
-        </section>
+			<script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollzer.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-
-        <!-- Experience -->
-        <section id="experience">
-            <div class="container">
-                <h3>Professional Experience</h3>
-
-                <ul class="job-list">
-                    <li>
-                        <h4>Associate Professor</h4>
-                        <p><i>USTC</i> | 2024–Present</p>
-                    </li>
-
-                    <li>
-                        <h4>Associate Professor</h4>
-                        <p><i>Shanghai University</i> | 2023–2024</p>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-
-        <!-- Contact -->
-        <section id="contact">
-            <div class="container">
-                <h3>Contact</h3>
-
-                <ul>
-                    <li>Email: <a href="mailto:chcao@ustc.edu.cn">chcao@ustc.edu.cn</a></li>
-                    <li>School of Computer Science and Technology</li>
-                    <li>USTC, Hefei, China</li>
-                </ul>
-            </div>
-        </section>
-
-    </main>
-
-</div>
-
-
-<!-- Scripts -->
-<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src="assets/js/jquery.scrollzer.min.js"></script>
-<script src="assets/js/jquery.scrolly.min.js"></script>
-<script src="assets/js/skel.min.js"></script>
-<script src="assets/js/util.js"></script>
-<script src="assets/js/main.js"></script>
-
-</body>
+	</body>
 </html>
